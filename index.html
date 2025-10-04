@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide-Show</title>
+    <style>
+        @charset "UTF-8";
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container-slide {
+            display: flex;
+            justify-content: space-between;
+            width: 50vw;
+            height: 50vh;
+            background-color: black;
+            margin: 20vh auto;
+            box-shadow: 0 20px 30px #00000088;
+            border-radius: 10px;
+            border: 5px solid black;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container-slide">
+            <div class="btn-acao" id="anterior"></div>
+            <div class="container-img"></div>
+            <div class="btn-acao" id="proximo"></div>
+        </div>
+    </main>
+</body>
+
+</html>
